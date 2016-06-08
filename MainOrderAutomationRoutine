@@ -29,3 +29,6 @@ return
 ^q::
 	Send, {ALTDOWN}{F4}{ALTUP}
 return
+
+GuiClose:
+ExitApp
