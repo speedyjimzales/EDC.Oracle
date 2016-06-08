@@ -1,0 +1,28 @@
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+;This is the code for automating orders in Oracle
+
+;Gui, Add, Text,, First name:
+;Gui, Add, Text,, Last name:
+;Gui, Add, Edit, vFirstName ym  ; The ym option starts a new column of controls.
+;Gui, Add, Edit, vLastName
+;Gui, Add, ListBox, vColorChoice, Red|Green|Blue|Black|White
+;Gui, Add, Button, default, Submit  ; The label ButtonOK (if it exists) will be run when the button is pressed.
+Gui Add, ActiveX, w980 h640 vWB, Shell.Explorer  ; The final parameter is the name of the ActiveX component.
+WB.Navigate("https://ebsprd.datacard.com:8443/")  ; This is specific to the web browser control.
+Gui, Show,, Simple Input Example
+return  ; End of auto-execute section. The script is idle until the user does something.
+
+;GuiClose:
+;MsgBox Error!
+;ButtonSubmit:
+;Gui, Submit  ; Save the input from the user to each control's associated variable.
+;MsgBox You entered "%FirstName% %LastName%" `n "%ColorChoice%".
+;ExitApp
+
+^q::
+	Send, {ALTDOWN}{TAB}{ALTUP}
+return
