@@ -22,6 +22,7 @@ else
 	WinActivate, Calculator
 
 ButtonCalibrate:
+run, "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe","r"
 MsgBox Eventually this will identify the location of line items--probably
 return
 
