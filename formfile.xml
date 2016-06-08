@@ -5,6 +5,7 @@
 	<window>
 		<control type="Text" value="Welcome to the Order Management Automation Tool v1.0" x="105" y="2" w="325" h="15" married="135574" offsetx="-149" offsety="-9" hwnd="2491920" bold="0" color="0xFF" font="Calibri" italic="0" size="10" strikeout="0" underline="0"></control>
 		<control type="Text" value="by" x="249" y="17" w="14" h="15" offsetx="-6" offsety="-9" hwnd="1182544" bold="0" color="0xFF" font="Calibri" italic="0" size="10" strikeout="0" underline="0"></control>
-		<control type="Text" value="James Barett and Carlos Espejo" x="176" y="31" w="175" h="15" offsetx="-70" offsety="-6" hwnd="592604" bold="0" color="0xFF" font="Calibri" italic="0" size="10" strikeout="0" underline="0"></control>
+		<control type="Text" value="James Barett and Carlos Espejo" x="176" y="31" w="175" h="15" offsetx="-77" offsety="-9" hwnd="592604" bold="0" color="0xFF" font="Calibri" italic="0" size="10" strikeout="0" underline="0"></control>
+		<control type="Button" value="Calibrate" x="238" y="119" w="50" h="23" hwnd="3541576" offsetx="-26" offsety="-14"></control>
 	</window>
 </gui>
