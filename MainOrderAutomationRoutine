@@ -12,7 +12,7 @@ Gui,Add,Text,x249 y17 w14 h15,by
 Gui,Add,Text,x176 y31 w175 h15,James Barett and Carlos Espejo
 Gui,Font
 Gui,Add,Button,x238 y119 w50 h23,Calibrate
-Gui,Show,w500 h500,Created with GUI Creator by maestrith
+Gui,Show,w500 h500,Order Management Automation Tool v1.0
 return
 
 ;------Opens up Oracle otherwise Calculator------
