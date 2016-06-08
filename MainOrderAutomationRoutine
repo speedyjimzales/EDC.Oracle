@@ -6,10 +6,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;This is the code for automating orders in Oracle
 
 ;------Creates Main window and adds Texts------
-Gui,Add,Text,x110 y2 w275 h13,Welcome to the Order Management Automation Tool v1.0
-Gui,Add,Text,x242 y17 w12 h13,by
-Gui,Add,Text,x174 y31 w150 h13,James Barett and Carlos Espejo
-Gui,Add,Button,Default,Calibrate
+Gui,Font,norm c0xFF s10,Calibri
+Gui,Add,Text,x105 y2 w325 h15,Welcome to the Order Management Automation Tool v1.0
+Gui,Add,Text,x249 y17 w14 h15,by
+Gui,Add,Text,x176 y31 w175 h15,James Barett and Carlos Espejo
+Gui,Font
+Gui,Add,Button,x238 y119 w50 h23,Calibrate
 Gui,Show,w500 h500,Created with GUI Creator by maestrith
 return
 
