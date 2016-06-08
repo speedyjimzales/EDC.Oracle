@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gui>
+	<filename>C:\Users\barettj\Desktop\formfile.xml</filename>
+	<workarea h="538" w="516" x="184" y="55"></workarea>
+	<window>
+		<control type="Text" value="Welcome to the Order Management Automation Tool v1.0" x="110" y="2" w="275" h="13" hwnd="332130" married="135574" offsetx="-39" offsety="-13" selected="1"></control>
+		<control type="Text" value="by" x="242" y="17" w="12" h="13" hwnd="527068" offsetx="-16" offsety="-9"></control>
+		<control type="Text" value="James Barett and Carlos Espejo" x="174" y="31" w="150" h="13" hwnd="1051472" offsetx="-11" offsety="-6"></control>
+	</window>
+</gui>
