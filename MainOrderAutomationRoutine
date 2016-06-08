@@ -15,6 +15,12 @@ Gui,Add,Button,x238 y119 w50 h23,Calibrate
 Gui,Show,w500 h500,Created with GUI Creator by maestrith
 return
 
+;------Opens up Oracle otherwise Calculator------
+ifWinExist, Oracle Applications - EBSPRD
+	WinActivate ;use the window if it exists
+else 
+	WinActivate, Calculator
+
 ButtonCalibrate:
 MsgBox Eventually this will identify the location of line items--probably
 return
