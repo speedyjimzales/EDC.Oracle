@@ -12,5 +12,5 @@ Gui,Add,Text,x176 y31 w175 h15,James Barett and Carlos Espejo
 Gui,Show,w500 h500,Created with GUI Creator by maestrith
 
 ^q::
-	Send, {ALTDOWN}{TAB}{ALTUP}
+	Send, {ALTDOWN}{F4}{ALTUP}
 return
