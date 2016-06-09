@@ -19,7 +19,7 @@ return
 ButtonCalibrate:
 
 ;-----Bring window to the front
-ifWinExist, Book1- Microsoft Excel
+ifWinExist, Book1 - Excel
 	WinActivate ;use the window if it exists
 else 
 	run, "C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.exe","rw"
