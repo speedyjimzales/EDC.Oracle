@@ -22,6 +22,7 @@ ButtonCalibrate:
 ifWinExist, Book1- Microsoft Excel
 	WinActivate ;use the window if it exists
 else 
+	run, "C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.exe","rw"
 	WinActivate, Microsoft Excel
 
 ;------The user clicks the mouse and the position of the cursor is recorded------
