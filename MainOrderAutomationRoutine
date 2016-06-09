@@ -15,15 +15,20 @@ Gui,Add,Button,x238 y119 w50 h23,Calibrate
 Gui,Show,w500 h500,Order Management Automation Tool v1.0
 return
 
-;------Opens up Oracle otherwise Calculator------
-ifWinExist, Oracle Applications - EBSPRD
+;------Calibrate screen by user clicking in window------
+ButtonCalibrate:
+
+;-----Bring window to the front
+ifWinExist, Book1- Microsoft Excel
 	WinActivate ;use the window if it exists
 else 
-	WinActivate, Calculator
+	WinActivate, Microsoft Excel
 
-ButtonCalibrate:
-run, "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe","r"
-MsgBox Eventually this will identify the location of line items--probably
+;------The user clicks the mouse and the position of the cursor is recorded------
+MsgBox, Please click on the first field where you would like to paste information into
+KeyWait, LButton, D
+MouseGetPos, X , Y
+MsgBox, The cursor is at X%X% Y%Y% 
 return
 
 ^q::
