@@ -23,9 +23,10 @@ ifWinExist, Book1- Microsoft Excel
 	WinActivate ;use the window if it exists
 else 
 	WinActivate, Microsoft Excel
-KeyWait, LButton, D
 
 ;------The user clicks the mouse and the position of the cursor is recorded------
+MsgBox, Please click on the first field where you would like to paste information into
+KeyWait, LButton, D
 MouseGetPos, X , Y
 MsgBox, The cursor is at X%X% Y%Y% 
 return
